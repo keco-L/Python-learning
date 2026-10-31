@@ -39,6 +39,9 @@ range(start,stop,step)
 #     print (i)
 # for i in range(6):#默认从0开始，6是循环次数
 #     print ()
+# for i in range(2, -1, -1):
+#     print(i) # 3,2,1,0
+
 '''
 计算1-100的和
 sum=0
