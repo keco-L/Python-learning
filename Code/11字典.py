@@ -4,8 +4,9 @@
 # dic={'age':18,'name':'lurry',}
 # print(type(dic))
 # print(dic['age'])  #18
-'''
+
 #查找2  变量名.get('键名')
+'''
 print(dic.get('name')) #lurry
 print(dic.get('sex')) #None  没有就返回none
 print(dic.get('sex','不存在'))  #不存在
@@ -40,6 +41,7 @@ print(dic)#{'age': 18, 'name': 'lurry', 'sex': '女'}   有的话就修改
 # print(dic)  #dic被删除 找不到了 会报错
 
 #2.clear():清空字典数据 但是字典依然保留
+#无参数
 
 # dic={'age':18,'name':'lurry'}
 # dic.clear()
